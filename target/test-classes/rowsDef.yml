@@ -1,0 +1,101 @@
+rows:
+  skipHeader: true
+columns:
+  - column:
+      name: "Role #"
+      sort: true
+      sortOrder: "asc"
+      sortPriority: 2
+  - column:
+      name: "Role Title"
+  - column:
+      name: "Project Client"
+      exclude:
+        - "Accenture"
+        - "don't"
+      sort: true
+      sortOrder: "asc"
+      sortPriority: 0
+  - column:
+      name: "Project #"
+      sort: true
+      sortOrder: "asc"
+      sortPriority: 1
+  - column:
+      name: "Project"
+  - column:
+      name: "Project Industry Group"
+  - column:
+      name: "Role Description"
+  - column:
+      name: "Role Create Date"
+  - column:
+      name: "Role Start Date"
+  - column:
+      name: "Role End Date"
+  - column:
+      name: "Role Management Level From"
+  - column:
+      name: "Role Management Level To"
+  - column:
+      name: "Role Work Location"
+  - column:
+      name: "Role Location Preference"
+      include:
+      exclude:
+  - column:
+      name: "Role Fulfillment Contact"
+  - column:
+      name: "Role Primary Contact"
+  - column:
+      name: "Role Skills"
+      include:
+        - "Java"
+        - "Spring"
+        - "Python"
+        - "Golang"
+        - "Security"
+      exclude:
+  - column:
+      name: "Role Languages"
+      include:
+      exclude:
+  - column:
+      name: "Project Industry Segment"
+      include:
+      exclude:
+  - column:
+      name: "Project Industry"
+  - column:
+      name: "Project Status"
+      include:
+      exclude:
+  - column:
+      name: "Project has Security/Nationality Restriction"
+      include:
+      exclude:
+        - "yes"
+  - column:
+      name: "Role Ready To Hard Lock"
+      include:
+      exclude:
+  - column:
+      name: "Role Market Location"
+      include:
+      exclude:
+  - column:
+      name: "Role Market Unit Location"
+      include:
+      exclude:
+  - column:
+      name: "Role Country/Territory"
+      include:
+      exclude:
+  - column:
+      name: "Role Metro City"
+      include:
+      exclude:
+  - column:
+      name: "Role Job Family Group"
+      include:
+      exclude:
