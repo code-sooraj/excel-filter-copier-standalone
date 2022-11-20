@@ -1,14 +1,20 @@
 # Compiled class file
 *.class
 
+# Application generated file
+database/*.db
+
+# Maven generated files and folders
+target/
+
+# Mac files
+.DS_Store
+
 # Log file
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# idea generated folder
+.idea
 
 # Package Files #
 *.jar
